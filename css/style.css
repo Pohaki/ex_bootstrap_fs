@@ -1,0 +1,11 @@
+img{
+    display: block;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 15px
+}
+li{
+    padding-left: 0;
+    padding-right: 0;
+}
