@@ -1,11 +1,57 @@
+body,html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
 img{
     display: block;
+    position: relative;
     max-width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 15px
+    z-index: 0;
+    transition: all 0.6s;
+
+}
+div[class*="imga"] h2{
+  position: absolute;
+  top:10%;
+  left:15%;
+  color: white;
+  font-size: 4em;
+}
+div[class*="imga"] h3{
+  position: absolute;
+  color: whitesmoke;
+  top:10%;
+  left: 15%;
+  font-size: 1.8em;
+}
+div[class*="imga"] p{
+  position: absolute;
+  font-size: 0.8em;
+  color: whitesmoke;
+  height: 70%;
+  width: 90%;
+  text-align: justify;
+  top:30%;
+  left:5%;
+  overflow: hidden;
+  transition:ease 0.6s;
+  z-index: 1;
+}
+div[class*="imga"] p:hover{
+  transform: scale(1.07);
+}
+div[class*="imga"] p:focus{
+  transform: scale(1.07);
 }
 li{
     padding-left: 0;
     padding-right: 0;
+}
+div[class*="col-"]{
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
